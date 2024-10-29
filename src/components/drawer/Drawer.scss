@@ -1,0 +1,35 @@
+.drawer {
+  --display: initial;
+  --image-size: 1.5rem;
+  --padding: .5rem;
+  --max-row-size: 4;
+  --link-size: calc(var(--image-size) + (var(--padding) * 2));
+
+  display: var(--display);
+  position: absolute;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+  padding: var(--padding);
+  border-radius: .5rem;
+  max-width: calc(var(--link-size) * var(--max-row-size));
+
+  &--visible {
+    --display: flex;
+    flex-wrap: wrap;
+  }
+
+  &--hidden {
+    --display: none;
+  }
+
+  &__link {
+    padding: var(--padding);
+
+    &__image {
+      height: var(--image-size);
+      width: var(--image-size);    
+      display: flex;
+      align-items: center;
+      border-radius: .25rem;
+    }
+  }
+}
