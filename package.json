@@ -1,6 +1,6 @@
 {
   "name": "poc-widget-sdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "author": "Fabrick",
   "files": [
@@ -11,7 +11,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "serve-build": "serve -s build"
+    "serve-build": "serve -C build",
+    "serve-embedder": "serve -p 3001 embedder"
   },
   "eslintConfig": {
     "extends": [
