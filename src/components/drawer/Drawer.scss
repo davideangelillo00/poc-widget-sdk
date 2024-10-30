@@ -11,6 +11,7 @@
   padding: var(--padding);
   border-radius: .5rem;
   max-width: calc(var(--link-size) * var(--max-row-size));
+  background-color: white;
 
   &--visible {
     --display: flex;

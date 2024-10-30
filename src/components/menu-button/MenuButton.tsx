@@ -1,5 +1,5 @@
 import React, { KeyboardEvent } from "react";
-import menuIcon from '../../assets/menu-icon.svg';
+// import menuIcon from 'menu-icon.svg';
 import './MenuButton.scss';
 
 type MenuButtonProps = {
@@ -15,7 +15,7 @@ export const MenuButton: React.FC<MenuButtonProps> = ({ onClick }: MenuButtonPro
 
   return <>
     <button className="menu-button" onClick={onClick} onKeyDown={onKeyDown}>
-      <img src={menuIcon} height="25" width="25" alt="menu"/>
+      <img src="menu-icon.svg" height="25" width="25" alt="menu"/>
     </button>
   </>
 }

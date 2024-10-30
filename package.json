@@ -1,7 +1,11 @@
 {
   "name": "poc-widget-sdk",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Fabrick",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "start": "craco start",
     "build": "craco build",
