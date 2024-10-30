@@ -9,9 +9,9 @@ function App() {
   const data = useFetchData('https://catfact.ninja/fact');
 
   const links: Link[] = [
-    { href: 'https://www.google.com?test=1', src: 'https://www.fabrick.com/images/favicon.png', alt: 'App 1' },
-    { href: 'https://www.google.com?test=2', src: 'https://cdn.logojoy.com/wp-content/uploads/20220329171724/social-media-app-logo-instagram.jpg', alt: 'App 2' },
-    { href: 'https://www.google.com?test=3', src: 'https://cdn.logojoy.com/wp-content/uploads/20220329171710/telegram-app-logo.png', alt: 'App 3' },
+    { href: 'http://localhost:4201', src: 'https://www.fabrick.com/images/favicon.png', alt: 'App 1' },
+    { href: 'http://localhost:4202', src: 'https://cdn.logojoy.com/wp-content/uploads/20220329171724/social-media-app-logo-instagram.jpg', alt: 'App 2' },
+    { href: 'http://localhost:4203', src: 'https://cdn.logojoy.com/wp-content/uploads/20220329171710/telegram-app-logo.png', alt: 'App 3' },
   ];
 
   useEffect(() => {
