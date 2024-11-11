@@ -13,7 +13,7 @@ export const MenuButton: React.FC<MenuButtonProps> = ({ onClick }: MenuButtonPro
   }
 
   return <>
-    <button className="menu-button" onClick={onClick} onKeyDown={onKeyDown}>
+    <button className="menu-button" onClick={onClick} onKeyDown={onKeyDown} type="button">
       <svg height="25px" width="25px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  >
         <g>
           <path fill="#000000" d="M50.047,0C22.404,0,0,22.4,0,50.047c0,27.646,22.404,50.046,50.047,50.046c27.642,0,50.046-22.4,50.046-50.046

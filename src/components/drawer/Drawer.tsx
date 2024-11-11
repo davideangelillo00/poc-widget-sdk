@@ -8,7 +8,7 @@ export const Drawer: React.FC<DrawerProps> = ({
   links
 }: DrawerProps) => {
   function onClick(link: string): void {
-    window.open(link, 'blank')
+    window.open(link, '_blank')
   }
 
   return <>
